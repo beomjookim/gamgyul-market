@@ -1,0 +1,83 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
+
+.splash{
+    width: 100vw;
+    height: 100vh;
+    z-index: 10;
+    background: white;
+    text-align: center;
+    display: table;
+    position: fixed;
+}
+
+.splash img{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+    text-align: center;
+    /* margin-top: 50%; */
+}
+
+.splash.display-none{
+    opacity: 0;
+    z-index: -10;
+    text-align: center;
+    transition: all 1s;
+}
+
+@keyframes fadeIn{
+    to{
+        opacity: 1;
+    }
+}
+
+.fade-in{
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+.background-login{
+    width: 100vw;
+    height: 100vh;
+    background: #F26E22;
+    text-align: center;
+    font-family: 'Spoqa Han Sans Neo';
+    /* position:fixed; */
+}
+
+.login-logo{
+    position: absolute;
+    left: 50%;
+    top: 32.47%;
+    transform: translate(-50%, -50%);
+    width: 36.9vw;
+    /* margin-top: 24vh; */
+}
+
+.tools-to-login{
+    width: 101vw;
+    height: 42.6vh;
+    position: absolute;
+    left: 50%;
+    top: 83.05%;
+    transform: translate(-50%, -50%);
+    padding-top: 13.8%;
+    background: white;
+    border-radius: 20px;
+}
+
+.sns-login img{
+    width: 82.56%;
+    height: 12.15%;
+    margin-bottom: 1.38%
+}
+
+.others-login {
+    font-size: 12.5px;
+    margin-top: 1.38%;
+}
+
+.email-login::after {
+    content: ' | ';
+}
