@@ -7,29 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <title>login interface</title>
+    <title>splash interface</title>
 </head>
 
 <body>
     <div class="splash">
         <h1 class="fade-in">
-            <img src="splash-logo.png" style="width:67.8vw">
+            <img src="img/splash-logo.png" style="width:67.8vw">
         </h1>
     </div>
     <div class="background-login">
-        <img src="login-logo.png" class="login-logo">
+        <img src="img/login-logo.png" class="login-logo">
         <section class="tools-to-login">
             <article class="sns-login">
-                <img src="kakao-login.png">
-                <img src="google-login.png">
-                <img src="fb-login.png">
+                <button type="button" class="kakao-button" onClick="location.href='#none'"><img
+                        src="img/kakao-login.png"></button>
+                <button type="button" class="google-button" onClick="location.href='#none'"><img
+                        src="img/google-login.png"></button>
+                <button type="button" class="fb-button" onClick="location.href='#none'"><img
+                        src="img/fb-login.png"></button>
             </article>
             <article class="others-login">
-                <a href="#none" class="email-login">이메일로 로그인</a>
+                <a href="login.html" class="email-login">이메일로 로그인</a>
                 <a href="#none" class="sign-up">회원가입</a>
             </article>
         </section>
     </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="login.js"></script>
 </body>
 

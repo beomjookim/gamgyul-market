@@ -81,3 +81,64 @@
 .email-login::after {
     content: ' | ';
 }
+
+.kakao-button, .google-button, .fb-button {
+    background: white;
+    border: white;
+}
+
+.login-page {
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    font-family: 'Spoqa Han Sans Neo';
+}
+
+.title-login {
+    position: absolute;
+    font-size: 1.6rem;
+    left: 50%;
+    top: 8.1%;
+    transform: translate(-50%, -50%);
+}
+
+.input-login {
+    position: absolute;
+    font-size: 0.7rem;
+    font: #767676;
+    top: 21%;
+    left: 50%;
+    width: 82.56%;
+    transform: translate(-50%, -50%);
+}
+
+.input-login input {
+    margin-top: 1%;
+    line-height: 200%;
+    width: 100%;
+    font-family: 'SpoqaHanSansNeo';
+    border-style: none;
+    border-bottom: 0.1px solid #767676;
+    outline: none;
+}
+
+.input-login input:focus {
+    border-color: #F26E22;
+}
+
+.login-button {
+    position: absolute;
+    top: 33.88%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: white;
+}
+
+.login-page .sign-up {
+    position: absolute;
+    top: 39.6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 75%;
+}
